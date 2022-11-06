@@ -11,7 +11,10 @@ name = "Manjot"
 # print(name.count("j"))
 # print(name.replace("a", "X"))
 # print(name * 10)
+
 sli = "hello"
+# slice
+# [Start:stop:step]
 # print(sli[0:5])
 # print(sli[6:10])
 # print(sli)
@@ -23,6 +26,12 @@ sli = "hello"
 
 # spl = "www.ibm.com"
 # print(spl.split("."))
+#
+# phone = "91-1000-123"
+# USPHONE = '001-32423423-345345'
+# print(USPHONE.split("-"))
+
+
 s = "        Hello "
 # print("Before Strip", len(s))
 
@@ -36,10 +45,16 @@ s = "        Hello "
 # print(len("Only removes right hand side spaces", rsstr))
 
 # concatenate:
-a = "Manjot"
-b = "How are you"
+# a = "Manjot"
+# b = "How are you"
+#
+# print(a + " " + b)
 
-print(a + " " + b)
+x = 98
+y = 90
+z = x + y
+print(z)
+
 
 # Type casting
 # converting one data type to another datatype
